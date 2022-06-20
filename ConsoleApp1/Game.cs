@@ -28,7 +28,7 @@ namespace ConsoleApp1
             // Create the main window
             window = new RenderWindow(new VideoMode(width, height), title);
 
-
+            int i = 0;
             // Setup some window properties
             window.SetFramerateLimit(framerate);
 
